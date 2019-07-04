@@ -1,0 +1,30 @@
+.filters {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.filters li {
+  width: 12%;
+  text-align: center;
+}
+
+.technologies {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.technologies li {
+  background: #e6e6e6;
+  padding: 1em;
+  width: 31.75%;
+  margin: 0.25em;
+  text-align: center;
+}
+
+.technologies li img {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
