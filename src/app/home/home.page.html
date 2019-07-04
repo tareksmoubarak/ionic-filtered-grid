@@ -18,8 +18,8 @@
   </ion-select>
 
   <ul class="technologies">
-    <li *ngFor="let technology of technologies">
-      <img src="{{ technology.image }}">
+    <li class="bounceIn" *ngFor="let technology of technologies">
+      <!-- <img style="min-height:150px;" src="{{ technology.image }}"> -->
       <h2>{{ technology.name }}</h2>
       <div [innerHTML]="technology.description"></div>
     </li>
